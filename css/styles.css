@@ -9,22 +9,37 @@ body {
     color: #C0D7FB;
 }
 
-h1, h3{
+header{
     text-align: center;
-    margin: 2rem;
+    border: 1px solid #6555E7;
+    border-radius: 2rem;
+    margin-bottom: 5rem;
+    
 }
 
-a {
-    color: #C0D7FB;
+h3 {
+    text-decoration: underline #647494;
 }
 
 li {
     list-style: none;
-    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+/*a {
+    color: #C0D7FB;
+}*/
+
+a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red; 
 }
 
 .button {
-    font: bold;
     background-color: #C0D7FB;
     color: #0C243C;
     text-decoration: none;
@@ -35,11 +50,9 @@ li {
     border-right: 1px solid #C0D7FB;
     border-bottom: 1px solid #C0D7FB;
     border-left: 1px solid #C0D7FB;*/
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
-a:hover{
-    color: purple;
-}
+
 /*background-color: #1c87c9;
         border: none;
         color: white;
@@ -50,7 +63,7 @@ a:hover{
         font-size: 20px;
         margin: 4px 2px;
         cursor: pointer;*/
-
+/*
 button {
     background-color: #C0D7FB;
     color: #0C243C;
@@ -59,3 +72,7 @@ button {
     margin: 1rem;
     border-radius: 2rem;
 }
+*/
+
+/*colors from this website:
+https://blog.hubspot.com/website/blue-website */
