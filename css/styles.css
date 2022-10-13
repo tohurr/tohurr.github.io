@@ -12,13 +12,29 @@ body {
 header{
     text-align: center;
     border: 1px solid #6555E7;
-    border-radius: 2rem;
+    border-radius: 1rem;
     margin-bottom: 5rem;
     
 }
 
-h3 {
+h4 {
     text-decoration: underline #647494;
+    color: #0C243C;
+}
+
+section {
+    display: flex;
+}
+
+nav {
+    background-color: ghostwhite;
+    padding: 0rem 1rem 0rem 1rem;
+    border: 2px solid #C0D7FB;
+    border-radius: 1rem;
+}
+
+ul {
+    padding: 0;
 }
 
 li {
@@ -26,9 +42,19 @@ li {
     margin-bottom: 2rem;
 }
 
-/*a {
-    color: #C0D7FB;
-}*/
+a {
+    background-color: #C0D7FB;
+    color: #0C243C;
+    text-decoration: none;
+    padding: 6px;
+    border: 1px solid #0C243C;
+    border-radius: 2rem;
+    /* You don't need this
+    border-top: 1px solid #C0D7FB;
+    border-right: 1px solid #C0D7FB;
+    border-bottom: 1px solid #C0D7FB;
+    border-left: 1px solid #C0D7FB;*/
+}
 
 a:hover{
     color: blueviolet;
@@ -36,22 +62,18 @@ a:hover{
 }
 
 a:active {
-    color: red; 
+    color: red;
+    background-color: ghostwhite;
 }
 
-.button {
+/*.button {
     background-color: #C0D7FB;
     color: #0C243C;
     text-decoration: none;
     padding: 2px 6px 2px 6px;
     border: 1px solid #C0D7FB;
-    /* You don't need this
-    border-top: 1px solid #C0D7FB;
-    border-right: 1px solid #C0D7FB;
-    border-bottom: 1px solid #C0D7FB;
-    border-left: 1px solid #C0D7FB;*/
     border-radius: 1rem;
-}
+}*/
 
 /*background-color: #1c87c9;
         border: none;
