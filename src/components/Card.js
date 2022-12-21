@@ -13,8 +13,8 @@ const Card = ({ title, description, imageSrc, url }) => {
      <VStack 
        color="black" 
        backgroundColor="white" 
-       cursor="pointer" 
-       borderRadius="xl" 
+       cursor="pointer"
+       borderRadius="xl"
       > 
       
        <Image borderRadius="xl" src={imageSrc} alt={title} /> 
