@@ -21,12 +21,12 @@ const LandingSection = () => (
          size="2xl" 
          name="Tohur Rahman" 
        /> 
-       <Heading as="h4" size="md" noOfLines={1} color="#C0D7FB"> 
+       <Heading as="h4" size="md" noOfLines={1} color="#F8F8FF"> 
          {greeting} 
        </Heading> 
      </VStack> 
      <VStack spacing={6}> 
-       <Heading as="h1" size="3xl" noOfLines={1} color="#C0D7FB"> 
+       <Heading as="h1" size="3xl" noOfLines={1} color="#F8F8FF"> 
          {bio1} 
        </Heading> 
        {/* <Heading as="h1" size="3xl" noOfLines={1}> 

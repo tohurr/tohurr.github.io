@@ -84,7 +84,7 @@ const Header = () => {
      transitionProperty="transform" 
      transitionDuration=".3s" 
      transitionTimingFunction="ease-in-out" 
-     backgroundColor="#18181b" 
+     backgroundColor="#0C243C" 
      ref={headerRef} 
    > 
      <Box color="white" maxWidth="1280px" margin="0 auto"> 
@@ -110,12 +110,12 @@ const Header = () => {
          </nav> 
          <nav> 
            <HStack spacing={8}> 
-             <a href="#projects" onClick={handleClick("projects")}> 
+             <a href="#projects" onClick={handleClick("projects")} style={{fontWeight: "bold"}}> 
                Projects 
              </a> 
-             <a href="#contactme" onClick={handleClick("contactme")}> 
+             {/* <a href="#contactme" onClick={handleClick("contactme")}> 
                Contact Me 
-             </a> 
+             </a>  */}
            </HStack> 
          </nav> 
        </HStack> 

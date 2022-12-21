@@ -8,13 +8,15 @@ const projects = [
    title: "React Space", 
    description: 
      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️", 
-   getImageSrc: () => require("../images/photo1.jpg"), 
+   getImageSrc: () => require("../images/photo1.jpg"),
+   url: "https://tohurr.github.io/react-calculator-app2/",
  }, 
  { 
    title: "React Infinite Scroll", 
    description: 
      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️", 
    getImageSrc: () => require("../images/photo2.jpg"), 
+   url: "https://tohurr.github.io/luckyshrub/",
  }, 
  { 
    title: "Photo Gallery", 
@@ -52,7 +54,7 @@ const ProjectsSection = () => {
            key={project.title} 
            title={project.title} 
            description={project.description} 
-           url="https://github.com/rgommezz/react-native-offline" 
+           url={project.url}
            imageSrc={project.getImageSrc()} 
          /> 
        ))} 
