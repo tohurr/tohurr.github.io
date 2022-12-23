@@ -1,3 +1,3 @@
 # My Online Portfolio
 
-### If you would like to go to my website please click [here](https://tohurr.github.io/).
+### If you would like to visit my website please [click here](https://tohurr.github.io/).

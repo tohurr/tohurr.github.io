@@ -1,0 +1,29 @@
+/* import './Styles.css'; */
+
+.homenav:hover  {
+    color: #C0D7FB;
+    transform: translateY(-2px);
+}
+
+.projectnav:hover {
+    color: #C0D7FB;
+    transform: translateY(-2px);
+}
+
+.icon:hover {
+    color: #C0D7FB;
+    transform: translateY(-2px);
+}
+
+.cards {
+    border: 1px solid #0C243C;
+}
+
+.cards:hover {
+    color: #0000FF;
+    transform: translateY(-2px);
+}
+
+.cards:active {
+    color: red;
+}

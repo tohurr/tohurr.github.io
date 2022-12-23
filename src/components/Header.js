@@ -7,7 +7,9 @@ import {
  faMedium, 
  faStackOverflow, 
 } from "@fortawesome/free-brands-svg-icons"; 
-import { Box, HStack, Text } from "@chakra-ui/react"; 
+import { Box, HStack, Text } from "@chakra-ui/react";
+import './Styles.css'
+
  
 const socials = [ 
  { 
@@ -103,16 +105,19 @@ const Header = () => {
                  target="_blank" 
                  rel="noopener noreferrer" 
                > 
-                 <FontAwesomeIcon icon={icon} size="2x" key={url} /> 
+                 <FontAwesomeIcon icon={icon} size="2x" key={url} className="icon"/> 
                </a> 
              ))} 
            </HStack> 
          </nav> 
-         <nav> 
+         <nav > 
            <HStack spacing={8} >
-             <a href="#projects" onClick={handleClick("projects")} style={{fontWeight: "bold"}} > 
+            <a href="#home" onClick={handleClick("landing")} style={{fontWeight: "bold"}} className="homenav"> 
+               Home 
+             </a>
+            <a href="#projects" onClick={handleClick("projects")} style={{fontWeight: "bold"}} className="projectnav"> 
                Projects 
-             </a> 
+             </a>
              {/* <a href="#contactme" onClick={handleClick("contactme")}> 
                Contact Me 
              </a>  */}
