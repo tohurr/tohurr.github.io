@@ -16,7 +16,7 @@
 }
 
 .cards {
-    border: 1px solid #0C243C;
+    box-shadow: 5px;
 }
 
 .cards:hover {
