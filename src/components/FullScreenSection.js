@@ -1,5 +1,5 @@
 import * as React from "react"; 
-import { VStack, } from "@chakra-ui/react"; 
+import { VStack } from "@chakra-ui/react"; 
  
 /** 
 * Illustrates the use of children prop and spread operator 

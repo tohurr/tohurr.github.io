@@ -8,22 +8,23 @@ const projects = [
  { 
    title: "React Calculator", 
    description: 
-     "A simple working calculator built using React. It can perform the four basic mathematical operations: addition, subtraction, multiplication, and division.", 
+     "A simple calculator built using React. It can perform the four basic mathematical operations: addition, subtraction, multiplication, and division.", 
    getImageSrc: () => require("../images/photo1.jpg"),
    url: "https://tohurr.github.io/react-calculator-app2/",
  }, 
  { 
    title: "Lucky Shrub", 
    description: 
-     "Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance and landscaping. A homepage developed for a fictional client just using HTML and CSS.", 
+     "Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance, and landscaping.", 
    getImageSrc: () => require("../images/photo2.jpg"), 
    url: "https://tohurr.github.io/luckyshrub/",
  }, 
  { 
-   title: "Blood Bank(beta)", 
+   title: "Blood Bank", 
    description: 
-     "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income", 
-   getImageSrc: () => require("../images/photo3.jpg"), 
+     "Blood Bank provides blood products to hospitals – and relies on volunteer donors to meet the need for life-saving gifts of blood. We provide high-quality laboratory services to local hospitals.", 
+   getImageSrc: () => require("../images/photo3.jpg"),
+   url: "https://tohurr.github.io/blood-blank-system/" 
  }, 
  { 
    title: "Figma Prototype", 

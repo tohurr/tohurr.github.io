@@ -105,17 +105,17 @@ const Header = () => {
                  target="_blank" 
                  rel="noopener noreferrer" 
                > 
-                 <FontAwesomeIcon icon={icon} size="2x" key={url} className="icon"/> 
+                 <FontAwesomeIcon icon={icon} size="2x" key={url} className="nav"/> 
                </a> 
              ))} 
            </HStack> 
          </nav> 
          <nav > 
            <HStack spacing={8} >
-            <a href="#home" onClick={handleClick("landing")} style={{fontWeight: "bold"}} className="homenav"> 
+            <a href="#home" onClick={handleClick("landing")} style={{fontWeight: "bold"}} className="nav"> 
                Home 
              </a>
-            <a href="#projects" onClick={handleClick("projects")} style={{fontWeight: "bold"}} className="projectnav"> 
+            <a href="#projects" onClick={handleClick("projects")} style={{fontWeight: "bold"}} className="nav"> 
                Projects 
              </a>
              {/* <a href="#contactme" onClick={handleClick("contactme")}> 

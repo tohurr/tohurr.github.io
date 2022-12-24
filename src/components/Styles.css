@@ -1,27 +1,21 @@
 /* import './Styles.css'; */
 
-.homenav:hover  {
+.nav:hover  {
     color: #C0D7FB;
-    transform: translateY(-2px);
+    transform: scale(1.1);
+    transition: transform .1s;
+    
 }
+/* transform: translateY(-2px); */
 
-.projectnav:hover {
-    color: #C0D7FB;
-    transform: translateY(-2px);
-}
-
-.icon:hover {
-    color: #C0D7FB;
-    transform: translateY(-2px);
-}
-
-.cards {
+/* .cards {
     box-shadow: 5px;
-}
+} */
 
 .cards:hover {
-    color: #0000FF;
+    color: #0F4BF1;
     transform: translateY(-2px);
+    transition: transform .2s;
 }
 
 .cards:active {
