@@ -115,12 +115,12 @@ const Header = () => {
             <a href="#home" onClick={handleClick("landing")} style={{fontWeight: "bold"}} className="nav"> 
                Home 
              </a>
+             <a href="#about-me" onClick={handleClick("aboutme")} style={{fontWeight: "bold"}} className="nav"> 
+               About 
+             </a> 
             <a href="#projects" onClick={handleClick("projects")} style={{fontWeight: "bold"}} className="nav"> 
                Projects 
              </a>
-             {/* <a href="#contactme" onClick={handleClick("contactme")}> 
-               Contact Me 
-             </a>  */}
            </HStack> 
          </nav> 
        </HStack> 

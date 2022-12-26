@@ -1,4 +1,4 @@
-import { Heading, HStack, Image, Text, VStack, } from "@chakra-ui/react"; 
+import { Heading, HStack, Image, Text, VStack, Stack } from "@chakra-ui/react"; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"; 
 import React from "react";
@@ -17,6 +17,7 @@ const Card = ({ title, description, imageSrc, url }) => {
       //  boxShadow='lg'
       className="cards"
       > 
+      <label>
       <a 
       key={url} 
       href={url} 
@@ -38,8 +39,8 @@ const Card = ({ title, description, imageSrc, url }) => {
          </HStack>  */}
        </VStack>
       </a>
+      </label>
     </VStack> 
-    
    ); 
 }; 
  

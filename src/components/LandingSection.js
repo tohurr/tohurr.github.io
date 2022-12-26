@@ -1,8 +1,9 @@
 import React from "react"; 
 import { Avatar, Heading, VStack, Divider } from "@chakra-ui/react"; 
-import FullScreenSection from "./FullScreenSection"; 
+import FullScreenSection from "./FullScreenSection";
+import './Styles.css';
  
-const greeting = "Hello, my name is Tohur."; 
+const greeting = "Hello, my name is Tohur Rahman."; 
 const bio1 = "I'm a Frontend Software Developer."; 
 // const bio2 = "specialized in React"; 
  
@@ -14,7 +15,7 @@ const LandingSection = () => (
    backgroundColor="#F8F8FF"
    id="landing-section" 
  > 
-   <VStack spacing={16}> 
+   <VStack spacing={16} > 
      {/* <VStack spacing={4} alignItems="center">  */}
        {/* <Avatar 
         //  src="" 
@@ -34,7 +35,7 @@ const LandingSection = () => (
        </Heading>  */}
      </VStack> 
    </VStack> 
- </FullScreenSection> 
+ </FullScreenSection > 
 ); 
  
 export default LandingSection;
