@@ -17,7 +17,6 @@ const Card = ({ title, description, imageSrc, url }) => {
       //  boxShadow='lg'
       className="cards"
       > 
-      <label>
       <a 
       key={url} 
       href={url} 
@@ -39,7 +38,6 @@ const Card = ({ title, description, imageSrc, url }) => {
          </HStack>  */}
        </VStack>
       </a>
-      </label>
     </VStack> 
    ); 
 }; 

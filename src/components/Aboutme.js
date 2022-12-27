@@ -3,6 +3,7 @@ import FullScreenSection from "./FullScreenSection";
 import { Heading, VStack, Avatar, Box, Image, HStack, Text } from "@chakra-ui/react";
 import './Styles.css'; 
 import photo from '../images/profile2.jpg'
+import resume from '../images/cs-resume.pdf'
 
 const Aboutme = () => {
     return (
@@ -41,9 +42,8 @@ const Aboutme = () => {
             <div>
                 <Image src={photo} alt='Tohur' borderRadius="xl" className="image" />
             </div>
-        
-            
         </div>
+        <a className="resume" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
         </FullScreenSection>
     )
 
