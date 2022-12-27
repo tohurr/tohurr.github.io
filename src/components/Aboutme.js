@@ -23,7 +23,7 @@ const Aboutme = () => {
                 <p >
                 Hello there! My name is Tohur. 
                 I am a recent college graduate with a bachelor's degree in computer science. 
-                Ever since I learned web programming, I became fascinated by how I could share my skills with the world.
+                Ever since I learned web programming, I became fascinated by how I could design websites and web applications with code.
                 I am very meticulous about creating quality and attractive products for users.
                 </p>
                 <p>
