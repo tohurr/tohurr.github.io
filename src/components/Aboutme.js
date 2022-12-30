@@ -1,6 +1,6 @@
 import React from "react"; 
 import FullScreenSection from "./FullScreenSection"; 
-import { Heading, VStack, Avatar, Box, Image, HStack, Text } from "@chakra-ui/react";
+import { Heading, Image, Text } from "@chakra-ui/react";
 import './Styles.css'; 
 import photo from '../images/profile2.jpg'
 import resume from '../images/cs-resume.pdf'
@@ -44,6 +44,7 @@ const Aboutme = () => {
             </div>
         </div>
         <a className="resume" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
+        {/* <p className="email-me">Email: <a href="mailto: tohur.biz@gmail.com" target="_blank" rel="noopener noreferrer">tohur.biz@gmail.com</a></p> */}
         </FullScreenSection>
     )
 
