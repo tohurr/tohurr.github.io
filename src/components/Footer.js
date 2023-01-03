@@ -14,7 +14,7 @@ const Footer = () => {
          maxWidth="1024px" 
          height={16} 
        > 
-         <p>© 2022 Tohur. All Rights Reserved.</p> 
+         <p>© 2023 Tohur. All Rights Reserved.</p> 
        </Flex> 
      </footer> 
    </Box> 
