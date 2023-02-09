@@ -113,7 +113,7 @@
     grid-gap: 2rem;
     }
 
-@media (max-width:800px) {
+@media (max-width:850px) {
 .box {
         display: flex;
         flex-wrap: wrap;
@@ -125,43 +125,46 @@
     /* padding: 64px; */
 }
 
-@media (max-width:800px) {
+@media (max-width:850px) {
     .aboutme-section {
         padding: 2rem;
     }
 }
 
-@media (max-width:800px) {
+@media (max-width:850px) {
 .aboutgrid {
     display: flex;
     flex-wrap: wrap-reverse;
         }
     }
 
-@media (max-width:800px) {
+@media (max-width:850px) {
 .abouttext{
         margin-top: 1rem;
         }
     }
 
 /* Nav section */
-@media (max-width:800px) {
+@media (max-width:850px) {
+    .chakra-stack.navhome.css-1ocidfa {
+        margin-bottom: 1rem;
+        font-size: medium;
+    }
+}
+
+@media (max-width:850px) {
     .chakra-stack.navv.css-1y0iuhv{
             display: flex;
             flex-wrap: wrap;
             flex-direction: column-reverse;
+            padding: 0;
+            margin-top: 3px;
+            font-size: small;
             }
         }
 
-@media (max-width:800px) {
-    .chakra-stack.navhome.css-1ocidfa {
-        margin-bottom: 1rem;
-        font-size: large;
-    }
-}
-
 /* Landing section */
-@media (max-width:800px) {
+@media (max-width:850px) {
     .chakra-stack.css-5zjxuu {
         margin-left: 1rem;
         align-items: flex-start;
@@ -169,13 +172,13 @@
     }
 }
 
-@media (max-width:800px) {
+@media (max-width:850px) {
     .chakra-heading.css-1apeglv {
         /* font-size: x-large; */
     }
 }
 
-@media (max-width:800px) {
+@media (max-width:850px) {
     .chakra-heading.css-tiszkr {
         /* font-size: large; */
         margin-top: 0;
