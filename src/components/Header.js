@@ -87,18 +87,19 @@ const Header = () => {
      transitionDuration=".3s" 
      transitionTimingFunction="ease-in-out" 
      backgroundColor="#0C243C" 
-     ref={headerRef} 
+     ref={headerRef}
    > 
      <Box color="white" maxWidth="1280px" margin="0 auto"> 
        <HStack 
          px={16} 
          py={4} 
          justifyContent="space-between" 
-         alignItems="center" 
+         alignItems="center"
+         className="navv"
        > 
          <nav> 
-           <HStack spacing={8}> 
-             {socials.map(({ icon, url }) => ( 
+           <HStack spacing={8} >
+             {socials.map(({ icon, url }) => (
                <a 
                  key={url} 
                  href={url} 
@@ -110,8 +111,8 @@ const Header = () => {
              ))} 
            </HStack> 
          </nav> 
-         <nav > 
-           <HStack spacing={8} >
+         <nav> 
+           <HStack spacing={8} className="navhome">
             <a href="#home" onClick={handleClick("landing")} style={{fontWeight: "bold"}} className="nav"> 
                Home 
              </a>

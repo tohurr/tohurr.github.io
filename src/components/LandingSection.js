@@ -15,25 +15,26 @@ const LandingSection = () => (
    backgroundColor="#F8F8FF"
    id="landing-section" 
  > 
-   <VStack spacing={16} > 
+   <VStack spacing={16}>
      {/* <VStack spacing={4} alignItems="center">  */}
        {/* <Avatar 
         //  src="" 
          size="2xl" 
          name="Tohur Rahman" 
        />  */}
-       <Heading as="h1" size="3xl" noOfLines={1} color="#0C243C"> 
+       
+       <Heading as="h1" size="3xl" noOfLines={0} color="#0C243C"> 
          {greeting} 
        </Heading> 
      {/* </VStack>  */}
-     <VStack spacing={5} > 
-       <Heading as="h2" size="xl" noOfLines={1} color="#0C243C"> 
+     {/* <VStack spacing={5} >  */}
+       <Heading as="h2" size="xl" noOfLines={0} color="#0C243C"> 
          {bio1} 
        </Heading> 
        {/* <Heading as="h1" size="3xl" noOfLines={1}> 
          {bio2} 
        </Heading>  */}
-     </VStack> 
+     {/* </VStack>  */}
    </VStack> 
  </FullScreenSection > 
 ); 

@@ -38,7 +38,7 @@ const projects = [
 ]; 
  
 const ProjectsSection = () => { 
- return ( 
+ return (
    <FullScreenSection 
      backgroundColor="#F8F8FF"
      isDarkBackground 
@@ -50,11 +50,12 @@ const ProjectsSection = () => {
      <Heading as="h1" color="#0C243C" className="border"> 
        Featured Projects 
      </Heading> 
-     <Box 
-       display="grid" 
-       gridTemplateColumns="repeat(3,minmax(0,1fr))" 
-       gridGap={8}
-     > 
+     <Box
+      //  display="grid"
+      //  gridTemplateColumns="repeat(3,minmax(0,1fr))" 
+      //  gridGap={8}
+      className="box"
+     >
        {projects.map((project) => ( 
          <Card 
            key={project.title} 

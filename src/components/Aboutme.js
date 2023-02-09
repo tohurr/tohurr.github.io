@@ -9,10 +9,11 @@ const Aboutme = () => {
     return (
         <FullScreenSection
             backgroundColor="#F8F8FF"
-            p={16}
+            // p={16}
             spacing={8}
             alignItems="flex-start"
             id="aboutme-section"
+            className="aboutme-section"
         >
         
         <Heading as="h1" color="#0C243C" className="border"> 
@@ -21,14 +22,14 @@ const Aboutme = () => {
         <div className="aboutgrid">
             <div className="abouttext">
                 <p >
-                Hello there! My name is Tohur. 
+                Hello there! My name is Tohur.
                 I am a recent college graduate with a <a target="_blank" rel="noopener noreferrer" className="link" href="https://www.parchment.com/u/award/558bf9d435306db8d96ca8ac48fe8abd">bachelor's degree</a> in computer science. 
                 Ever since I learned web programming, I became fascinated by how I could design websites and web applications with code.
                 I am very meticulous about creating quality and attractive products for users.
                 </p>
                 <p>
                 After college, I enrolled in the <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer" target="_blank" rel="noopener noreferrer" className="link">Meta front-end developer course </a> 
-                to build on my knowledge in front-end development. 
+                to build on my knowledge in front-end development.
                 </p>
                 <p>Here are a few technologies I'm working with:
                 <ul className="languages">
