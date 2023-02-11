@@ -147,8 +147,8 @@
 /* Nav section */
 @media (max-width:850px) {
     .chakra-stack.navhome.css-1ocidfa {
-        margin-bottom: 1rem;
-        font-size: medium;
+        margin-bottom: 3px;
+        font-size: large;
     }
 }
 
@@ -169,12 +169,6 @@
         margin-left: 1rem;
         align-items: flex-start;
         gap: 2rem;
-    }
-}
-
-@media (max-width:850px) {
-    .chakra-heading.css-1apeglv {
-        /* font-size: x-large; */
     }
 }
 

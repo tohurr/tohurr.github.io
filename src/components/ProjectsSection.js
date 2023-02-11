@@ -1,23 +1,30 @@
-import React from "react"; 
-import FullScreenSection from "./FullScreenSection"; 
-import { Box, Heading, Divider } from "@chakra-ui/react"; 
+import React from "react";
+import FullScreenSection from "./FullScreenSection";
+import { Box, Heading, } from "@chakra-ui/react";
 import Card from "./Card";
-import './Styles.css'; 
- 
+import './Styles.css';
+
 //not using images under projects atm
-const projects = [ 
- { 
-   title: "React Calculator", 
-   description: 
+const projects = [
+  {
+    title: "Little Lemon Restaurant (under construction)",
+    description:
+      'Come book your table at the Little Lemon restaurant website.',
+    url: "https://tohurr.github.io/reserve-table/",
+  },
+
+ {
+   title: "React Calculator",
+   description:
      "A simple calculator built using React. It can perform the four basic mathematical operations: addition, subtraction, multiplication, and division.", 
   //  getImageSrc: () => require("../images/photo1.jpg"),
    url: "https://tohurr.github.io/react-calculator-app2/",
- }, 
- { 
-   title: "Lucky Shrub", 
-   description: 
+ },
+ {
+   title: "Lucky Shrub",
+   description:
      "Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance, and landscaping.", 
-  //  getImageSrc: () => require("../images/photo2.jpg"), 
+  //  getImageSrc: () => require("../images/photo2.jpg"),
    url: "https://tohurr.github.io/luckyshrub/",
  }, 
  { 
@@ -27,16 +34,16 @@ const projects = [
   //  getImageSrc: () => require("../images/photo3.jpg"),
    url: "https://tohurr.github.io/blood-blank-system/" 
  }, 
- { 
-   title: "Figma Prototype", 
-   description: 
+ {
+   title: "Reserve a Table Prototype",
+   description:
      'An interactive, high-fidelity visual design prototype created in Figma for the "reserve a table" feature of the mobile version of the Little Lemon restaurant website.', 
   //  getImageSrc: () => require("../images/photo4.jpg"),
-   url: "https://www.figma.com/file/PSVsK7q4ZCWInAWUK3OMa2/Prototype---UX%2FUI?node-id=0%3A1&t=RWBSxG5O2Oxouv4F-3", 
+   url: "https://www.figma.com/proto/PSVsK7q4ZCWInAWUK3OMa2/Prototype---UX%2FUI?node-id=335%3A180&scaling=scale-down&page-id=0%3A1&starting-point-node-id=335%3A180", 
  },
-  
-]; 
- 
+
+];
+
 const ProjectsSection = () => { 
  return (
    <FullScreenSection 
