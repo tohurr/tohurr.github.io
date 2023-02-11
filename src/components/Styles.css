@@ -39,7 +39,7 @@
     /* padding-top: 1rem; */
     /* padding-left: 1rem; */
     padding-right: 1rem;
-    line-height: 1.6;
+    line-height: 1.5;
     font-size: x-large;
 }
 /* ############## */
@@ -170,18 +170,18 @@
 /* Nav section */
 @media (max-width:850px) {
     .chakra-stack.navhome.css-1ocidfa {
-        margin-bottom: 3px;
-        font-size: large;
+        margin-bottom: 1rem;
+        font-size: 1rem;
     }
 }
 
 @media (max-width:850px) {
-    .chakra-stack.navv.css-1y0iuhv{
+    .chakra-stack.navbox.css-1y0iuhv{
             display: flex;
             flex-wrap: wrap;
             flex-direction: column-reverse;
             padding: 0;
-            margin-top: 3px;
+            /* margin-top: .5rem; */
             font-size: small;
             }
         }
@@ -196,8 +196,28 @@
 }
 
 @media (max-width:850px) {
+    .chakra-heading.css-1apeglv {
+        margin-top: 0;
+        /* font-size: xx-large; */
+    }
+}
+
+@media (max-width:850px) {
     .chakra-heading.css-tiszkr {
         /* font-size: large; */
         margin-top: 0;
+    }
+}
+
+/* Cards */
+@media (max-width:850px) {
+    .chakra-heading.css-18j379d {
+        font-size: medium;
+    }
+}
+
+@media (max-width:850px) {
+    .chakra-text.css-653kx9 {
+        font-size: medium;
     }
 }

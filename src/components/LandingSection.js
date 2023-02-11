@@ -22,7 +22,7 @@ const LandingSection = () => (
          size="2xl" 
          name="Tohur Rahman" 
        />  */}
-       
+
        <Heading as="h1" size="3xl" noOfLines={0} color="#0C243C"> 
          {greeting} 
        </Heading> 

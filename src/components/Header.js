@@ -95,7 +95,7 @@ const Header = () => {
          py={4} 
          justifyContent="space-between" 
          alignItems="center"
-         className="navv"
+         className="navbox"
        > 
          <nav> 
            <HStack spacing={8} >
