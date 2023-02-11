@@ -41,7 +41,7 @@ const Aboutme = () => {
                 </p>
             </div>
             <div>
-                <Image src={photo} alt='Tohur' borderRadius="xl" className="image" />
+                <Image src={photo} alt='Tohur' borderRadius="md" className="image" />
             </div>
         </div>
         <a className="resume" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
