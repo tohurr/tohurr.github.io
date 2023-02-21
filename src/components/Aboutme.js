@@ -1,9 +1,9 @@
-import React from "react"; 
-import FullScreenSection from "./FullScreenSection"; 
+import React from "react";
+import FullScreenSection from "./FullScreenSection";
 import { Heading, Image, Text } from "@chakra-ui/react";
-import './Styles.css'; 
-import photo from '../images/profile2.jpg'
-import resume from '../images/cs-resume.pdf'
+import './Styles.css';
+import photo from '../assets/profile.jpg'
+import resume from '../assets/cs-resume.pdf'
 
 const Aboutme = () => {
     return (
@@ -15,8 +15,7 @@ const Aboutme = () => {
             id="aboutme-section"
             className="aboutme-section"
         >
-        
-        <Heading as="h1" color="#0C243C" className="border"> 
+        <Heading as="h1" color="#0C243C" className="border">
             About me
         </Heading>
         <div className="aboutgrid">

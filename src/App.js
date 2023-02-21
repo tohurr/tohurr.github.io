@@ -1,22 +1,22 @@
-import { ChakraProvider } from "@chakra-ui/react"; 
-import Header from "./components/Header"; 
-import LandingSection from "./components/LandingSection"; 
+import { ChakraProvider } from "@chakra-ui/react";
+import Header from "./components/Header";
+import LandingSection from "./components/LandingSection";
 import ProjectsSection from "./components/ProjectsSection";
-import Aboutme from "./components/Aboutme";  
-import Footer from "./components/Footer"; 
+import Aboutme from "./components/Aboutme";
+import Footer from "./components/Footer";
 
-function App() { 
- return ( 
-   <ChakraProvider> 
-       <main> 
-         <Header /> 
+function App() {
+ return (
+   <ChakraProvider>
+       <main>
+         <Header />
          <LandingSection />
-         <Aboutme /> 
+         <Aboutme />
          <ProjectsSection />
-         <Footer /> 
+         <Footer />
        </main>
-   </ChakraProvider> 
- ); 
-} 
+   </ChakraProvider>
+ );
+}
 
 export default App;
