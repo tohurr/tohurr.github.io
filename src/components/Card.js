@@ -14,7 +14,7 @@ const Card = ({ title, description, imageSrc, url }) => {
        cursor="pointer"
        borderRadius="xl"
       //  boxShadow='lg'
-      className="cards"
+       className="cards"
       >
       <a
       key={url}

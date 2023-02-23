@@ -1,4 +1,5 @@
 /* import './Styles.css'; */
+
 .nav:hover  {
     color: #C0D7FB;
     transform: scale(1.1);
@@ -6,18 +7,22 @@
 }
 /* transform: translateY(-2px); */
 
-/* .cards {
-    box-shadow: 5px;
-} */
 
 .cards {
     transition-duration: 0.4s;
+    border-bottom: 1px solid #C0D7FB;
 }
 
 .cards:hover {
     color: #0F4BF1;
     transform: translateY(-2px);
     transition: transform .2s;
+}
+@media (max-width:850px) {
+    .cards:hover {
+        transform: translateY(0px);
+        transition: transform 0s;
+    }
 }
 
 .cards:active {
@@ -70,17 +75,17 @@
 }
 
 .languages {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     list-style-type: square;
-    padding-left: 1rem;
+    margin-left: 1rem;
 }
 
 .languages li {
     /* text-align: center; */
     float: left;
-    padding-top: 1rem;
-    padding-right: 3rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
     font-size: large;
     font-family: monospace
 
@@ -92,7 +97,7 @@
     }
 }
 
-.resume {
+/* .resume {
     display: inline-block;
     border: 2px solid #0C243C;
     color: #0C243C;
@@ -101,8 +106,17 @@
     text-align: center;
     text-decoration: none;
     font-size: large;
-    /* background-color: #C0D7FB; */
+    background-color: #C0D7FB;
     font-weight: 500;
+    transition-duration: 0.4s;
+} */
+
+.resume {
+    border: 2px solid #C0D7FB;
+    color: #C0D7FB;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
     transition-duration: 0.4s;
 }
 
@@ -113,20 +127,17 @@
 }
 /* ################# */
 
-.resume:hover {
-    /* color: #0F4BF1; */
+/* .resume:hover {
+    color: #0F4BF1;
     background-color: #C0D7FB;
     transform: scale(1.1);
     transition: transform .2s;
-}
-
-/* .email-me {
-    font-size: x-large;
-}
-.email-me a:hover {
-    color: #0F4BF1;
-    text-decoration: underline;
 } */
+
+.resume:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+}
 
 .box {
     display: grid;
@@ -149,7 +160,7 @@
 
 @media (max-width:850px) {
     .aboutme-section {
-        padding: 2rem;
+        padding: 1rem;
     }
 }
 
@@ -166,6 +177,16 @@
         }
     }
 
+ /* Project Section Padding */
+.projects-section {
+    padding: 4rem;
+}
+
+@media (max-width:850px) {
+    .projects-section {
+        padding: 2rem;
+    }
+}
 /* Nav section */
 @media (max-width:850px) {
     .chakra-stack.navhome.css-1ocidfa {
