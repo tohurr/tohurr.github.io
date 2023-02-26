@@ -3,7 +3,7 @@ import FullScreenSection from "./FullScreenSection";
 import { Heading, Image, Text } from "@chakra-ui/react";
 import './Styles.css';
 import photo from '../assets/profile.jpg'
-// import resume from '../assets/cs-resume.pdf'
+import resume from '../assets/cs-resume.pdf'
 
 const Aboutme = () => {
     return (
@@ -43,7 +43,7 @@ const Aboutme = () => {
                 <Image src={photo} alt='Tohur' borderRadius="md" className="image" />
             </div>
         </div>
-        {/* <a className="resume" href={resume} target="_blank" rel="noopener noreferrer">Resume</a> */}
+        <a className="resume" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
         {/* <p className="email-me">Email: <a href="mailto: tohur.biz@gmail.com" target="_blank" rel="noopener noreferrer">tohur.biz@gmail.com</a></p> */}
         </FullScreenSection>
     )
