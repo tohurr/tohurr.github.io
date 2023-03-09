@@ -22,13 +22,14 @@ const Aboutme = () => {
             <div className="abouttext">
                 <p >
                 Hello there! My name is Tohur.
-                I am a recent college graduate with a <a target="_blank" rel="noopener noreferrer" className="link" href="https://www.parchment.com/u/award/558bf9d435306db8d96ca8ac48fe8abd">bachelor's degree</a> in computer science.
-                Ever since I learned web programming, I became fascinated by how I could design websites and web applications with code.
+                I am a recent college graduate with a <a target="_blank" rel="noopener noreferrer" className="link" href="https://www.parchment.com/u/award/558bf9d435306db8d96ca8ac48fe8abd">Bachelor of Science</a> in Computer Science.
+                Ever since I learned web programming, I became fascinated by how I could design websites with code.
                 I am very meticulous about creating quality and attractive products for users.
+                After college, I enrolled in the <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer" target="_blank" rel="noopener noreferrer" className="link">Meta Front-End Developer </a>
+                course to build on my knowledge of front-end development.
                 </p>
                 <p>
-                After college, I enrolled in the <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer" target="_blank" rel="noopener noreferrer" className="link">Meta front-end developer course </a>
-                to build on my knowledge in front-end development.
+                Additionally, I consistently strive to learn more about websites, and web-based applications, create new projects, and pick up new programming languages to further increase my knowledge in the field. I want to continually be creative in my approach to developing and delivering content that would be compelling and effective.
                 </p>
                 <p>Here are a few technologies I'm working with:
                 <ul className="languages">

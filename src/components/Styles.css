@@ -44,12 +44,12 @@
     /* padding-left: 1rem; */
     padding-right: 1rem;
     line-height: 1.5;
-    font-size: x-large;
+    font-size: large;
 }
 /* ############## */
 @media (max-width:850px) {
     .abouttext p {
-        font-size: large;
+        font-size: medium;
     }
 }
 
