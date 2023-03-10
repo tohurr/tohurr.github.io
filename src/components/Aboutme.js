@@ -29,7 +29,7 @@ const Aboutme = () => {
                 course to build on my knowledge of front-end development.
                 </p>
                 <p>
-                Additionally, I consistently strive to learn more about websites, and web-based applications, create new projects, and pick up new programming languages to further increase my knowledge in the field. I want to continually be creative in my approach to developing and delivering content that would be compelling and effective.
+                Additionally, I consistently strive to learn more about websites, and web-based applications, create new projects, and pick up new programming languages to further increase my knowledge in the field.
                 </p>
                 <p>Here are a few technologies I'm working with:
                 <ul className="languages">
