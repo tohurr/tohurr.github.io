@@ -2,7 +2,7 @@ import React from "react";
 import FullScreenSection from "./FullScreenSection";
 import { Heading, Image, Text } from "@chakra-ui/react";
 import './Styles.css';
-import photo from '../assets/profile.jpg'
+import photo from '../assets/profile2.jpeg'
 import resume from '../assets/cs-resume.pdf'
 
 const Aboutme = () => {
