@@ -13,7 +13,7 @@ const LandingSection = () => (
    justifyContent="center"
    alignItems="center"
    isDarkBackground
-   backgroundColor="#FFFDFA"
+   backgroundColor="white"
    id="landing-section"
  >
    <VStack spacing={16}>
