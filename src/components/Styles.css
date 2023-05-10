@@ -60,7 +60,7 @@
 
 @media (max-width:850px) {
     .image {
-        width: 70%;
+        width: 60%;
     }
 }
 
@@ -171,7 +171,8 @@
 /* Nav section */
 @media (max-width:850px) {
     .chakra-stack.navhome.css-1ocidfa {
-        margin-bottom: 1rem;
+        /* margin-top: .5rem; */
+        margin-bottom: .5rem;
         font-size: 1rem;
     }
 }
@@ -218,5 +219,26 @@
 @media (max-width:850px) {
     .chakra-text.css-653kx9 {
         font-size: medium;
+    }
+}
+
+/* landing-section title */
+.chakra-heading.css-1apeglv {
+    font-family: Helvetica;
+}
+
+.chakra-heading.css-tiszkr {
+    font-family: Helvetica;
+}
+
+@media (max-width:850px) {
+    .chakra-heading.css-1apeglv {
+        font-size: xx-large;
+    }
+}
+
+@media (max-width:850px) {
+    .chakra-heading.css-tiszkr {
+        font-size: x-large;
     }
 }
