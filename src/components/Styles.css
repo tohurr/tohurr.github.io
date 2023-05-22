@@ -9,7 +9,7 @@
 
 .cards {
     transition-duration: 0.4s;
-    border-bottom: 1px solid #C0D7FB;
+    /* border: 1px solid #C0D7FB; */
 }
 
 .cards:hover {
