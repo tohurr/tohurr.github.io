@@ -82,7 +82,7 @@ const Header = () => {
      transitionProperty="transform"
      transitionDuration=".3s"
      transitionTimingFunction="ease-in-out"
-     backgroundColor="#0C243C"
+     backgroundColor="white"
      ref={headerRef}
    >
      <Box color="white" maxWidth="1280px" margin="0 auto">

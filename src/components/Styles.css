@@ -1,5 +1,13 @@
 /* import './Styles.css'; */
 
+.nav{
+    color: #0C243C;
+}
+
+.css-1y0iuhv{
+    border-bottom: 1px solid lightgrey;
+}
+
 .nav:hover  {
     /* color: #C0D7FB; */
     transform: scale(1.1);
