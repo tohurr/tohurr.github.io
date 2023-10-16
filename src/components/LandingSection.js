@@ -24,13 +24,13 @@ const LandingSection = () => (
          name="Tohur Rahman"
        />  */}
 
-       <Heading as="h1" size="3xl" noOfLines={0} color="#0C243C">
+       <Heading as="h1" size="3xl" noOfLines={0} color="#1A1D20">
          {greeting}
          {/* Hello, my name is Tohur Rahman. */}
        </Heading>
      {/* </VStack>  */}
      {/* <VStack spacing={5} >  */}
-       <Heading as="h2" size="xl" noOfLines={0} color="#0C243C">
+       <Heading as="h2" size="xl" noOfLines={0} color="#1A1D20">
          {bio1}
          {/* I'm a Front-End Software Developer. */}
        </Heading>

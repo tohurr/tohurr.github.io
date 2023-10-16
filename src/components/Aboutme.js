@@ -15,8 +15,8 @@ const Aboutme = () => {
             id="aboutme-section"
             className="aboutme-section"
         >
-        <Heading as="h1" color="#0C243C" className="border">
-            About me
+        <Heading as="h1" color="#1A1D20" className="border">
+            About Me
         </Heading>
         <div className="aboutgrid">
             <div className="abouttext">
@@ -24,12 +24,12 @@ const Aboutme = () => {
                 Hello there! My name is Tohur.
                 I am a recent college graduate with a <a target="_blank" rel="noopener noreferrer" className="link" href="https://www.parchment.com/u/award/558bf9d435306db8d96ca8ac48fe8abd">Bachelor of Science</a> in Computer Science.
                 Ever since I learned web programming, I became fascinated by how I could design websites with code.
-                I am very meticulous about creating quality and attractive products for users.
+                I am very meticulous about creating quality and attractive products.
                 After college, I enrolled in the <a href="https://coursera.org/share/e2cc9f205b466083c97983eca6175b19" target="_blank" rel="noopener noreferrer" className="link">Meta Front-End Developer </a>
                 course to build on my knowledge of front-end development.
                 </p>
                 <p>
-                Additionally, I consistently strive to learn more about websites, and web-based applications, create new projects, and pick up new programming languages to further increase my knowledge in the field.
+                Additionally, I consistently strive to learn more about website development, create new projects, and pick up new programming languages.
                 </p>
                 <p>Here are a few technologies I'm working with:
                 <ul className="languages">

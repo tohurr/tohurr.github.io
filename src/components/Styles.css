@@ -1,7 +1,7 @@
 /* import './Styles.css'; */
 
 .nav{
-    color: #0C243C;
+    color: darkblue;
 }
 
 .css-1y0iuhv{
@@ -37,7 +37,7 @@
 }
 
 .border {
-    border-bottom: 2px solid #0C243C;
+    border-bottom: 2px solid #1A1D20;
   }
 
 
@@ -250,3 +250,4 @@
         font-size: x-large;
     }
 }
+
