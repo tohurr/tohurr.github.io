@@ -104,8 +104,8 @@
     }
 }
 
-.resume {
-    /* display: block; */
+/* .resume {
+    display: block;
     border: 2px solid #0C243C;
     color: #0C243C;
     padding: 8px;
@@ -116,7 +116,7 @@
     background-color: #C0D7FB;
     font-weight: 500;
     transition-duration: 0.4s;
-}
+} */
 
 @media (max-width:850px) {
     .resume {
@@ -249,5 +249,41 @@
     .chakra-heading.css-tiszkr {
         font-size: x-large;
     }
+}
+
+footer {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    color: white;
+    padding: 3rem;
+    background-color: #1A1D20;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer h1 {
+    color: #E9F1FA;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+footer li {
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p{
+    margin-top: 1rem;
+    color: grey;
 }
 

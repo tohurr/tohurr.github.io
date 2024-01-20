@@ -13,7 +13,7 @@ const LandingSection = () => (
    justifyContent="center"
    alignItems="center"
    isDarkBackground
-   backgroundColor="white"
+   backgroundColor="#E9F1FA"
    id="landing-section"
  >
    <VStack spacing={16}>
@@ -30,7 +30,7 @@ const LandingSection = () => (
        </Heading>
      {/* </VStack>  */}
      {/* <VStack spacing={5} >  */}
-       <Heading as="h2" size="xl" noOfLines={0} color="#1A1D20">
+       <Heading as="h2" size="xl" noOfLines={0} color="darkblue">
          {bio1}
          {/* I'm a Front-End Software Developer. */}
        </Heading>

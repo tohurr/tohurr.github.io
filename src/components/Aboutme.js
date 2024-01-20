@@ -22,7 +22,7 @@ const Aboutme = () => {
             <div className="abouttext">
                 <p >
                 Hello there! My name is Tohur.
-                I am a recent college graduate with a <a target="_blank" rel="noopener noreferrer" className="link" href="https://www.parchment.com/u/award/558bf9d435306db8d96ca8ac48fe8abd">Bachelor of Science</a> in Computer Science.
+                I am a recent graduate with a <a target="_blank" rel="noopener noreferrer" className="link" href="https://www.parchment.com/u/award/558bf9d435306db8d96ca8ac48fe8abd">Bachelor of Science</a> in Computer Science.
                 Ever since I learned web programming, I became fascinated by how I could design websites with code.
                 I am very meticulous about creating quality and attractive products.
                 After college, I enrolled in the <a href="https://coursera.org/share/e2cc9f205b466083c97983eca6175b19" target="_blank" rel="noopener noreferrer" className="link">Meta Front-End Developer </a>

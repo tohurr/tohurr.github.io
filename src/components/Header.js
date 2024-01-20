@@ -12,10 +12,10 @@ import './Styles.css'
 
 
 const socials = [
- {
-   icon: faEnvelope,
-   url: "mailto: tohur.biz@gmail.com",
- },
+//  {
+//    icon: faEnvelope,
+//    url: "mailto: tohur.biz@gmail.com",
+//  },
  {
    icon: faGithub,
    url: "https://github.com/tohurr",
@@ -82,7 +82,7 @@ const Header = () => {
      transitionProperty="transform"
      transitionDuration=".3s"
      transitionTimingFunction="ease-in-out"
-     backgroundColor="white"
+     backgroundColor="#E9F1FA"
      ref={headerRef}
    >
      <Box color="white" maxWidth="1280px" margin="0 auto">
