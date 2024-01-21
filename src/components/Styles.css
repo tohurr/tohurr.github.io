@@ -264,9 +264,10 @@ footer ul {
 }
 
 footer h1 {
-    color: #E9F1FA;
+    color: white;
     font-size: x-large;
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 footer li {
