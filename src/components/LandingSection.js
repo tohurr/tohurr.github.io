@@ -4,8 +4,8 @@ import FullScreenSection from "./FullScreenSection";
 import './Styles.css';
 //#034694
 
-const greeting = "Hello, my name is Tohur Rahman.";
-const bio1 = "I'm a Front-End Software Developer.";
+const greeting = "Hello, my name is Tohur.";
+const bio1 = "Welcome to my website.";
 // const bio2 = "specialized in React";
 
 const LandingSection = () => (
@@ -15,6 +15,7 @@ const LandingSection = () => (
    isDarkBackground
    backgroundColor="#E9F1FA"
    id="landing-section"
+   className="landing-section"
  >
    <VStack spacing={16}>
      {/* <VStack spacing={4} alignItems="center">  */}
@@ -32,7 +33,6 @@ const LandingSection = () => (
      {/* <VStack spacing={5} >  */}
        <Heading as="h2" size="xl" noOfLines={0} color="darkblue">
          {bio1}
-         {/* I'm a Front-End Software Developer. */}
        </Heading>
        {/* <Heading as="h1" size="3xl" noOfLines={1}>
          {bio2}

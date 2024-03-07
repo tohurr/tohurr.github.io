@@ -118,15 +118,15 @@
     transition-duration: 0.4s;
 } */
 
-@media (max-width:850px) {
+/* @media (max-width:850px) {
     .resume {
         font-size: medium;
     }
-}
-.resume:hover {
+} */
+/* .resume:hover {
     transform: scale(1.1);
     transition: transform .2s;
-}
+} */
 /* // */
 .box {
     display: grid;
@@ -147,11 +147,11 @@
     /* padding: 64px; */
 }
 
-@media (max-width:850px) {
+/* @media (max-width:850px) {
     .aboutme-section {
         padding: 1rem;
     }
-}
+} */
 
 @media (max-width:850px) {
 .aboutgrid {
@@ -171,15 +171,15 @@
     padding: 4rem;
 }
 
-@media (max-width:850px) {
+/* @media (max-width:850px) {
     .projects-section {
         padding: 2rem;
     }
-}
+} */
 /* Nav section */
 @media (max-width:850px) {
     .chakra-stack.navhome.css-1ocidfa {
-        /* margin-top: .5rem; */
+        margin-top: .5rem;
         margin-bottom: .5rem;
         font-size: 1rem;
     }
@@ -197,23 +197,11 @@
         }
 
 /* Landing section */
+
 @media (max-width:850px) {
     .chakra-stack.css-5zjxuu {
-        margin-left: 1rem;
-        align-items: flex-start;
-        gap: 2rem;
-    }
-}
-
-@media (max-width:850px) {
-    .chakra-heading.css-1apeglv {
-        margin-top: 0;
-    }
-}
-
-@media (max-width:850px) {
-    .chakra-heading.css-tiszkr {
-        margin-top: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
@@ -251,9 +239,10 @@
     }
 }
 
+/* footer section */
 footer {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
     color: white;
     padding: 3rem;
     background-color: #1A1D20;
@@ -264,7 +253,7 @@ footer ul {
 }
 
 footer h1 {
-    color: white;
+    color: #0F4BF1;
     font-size: x-large;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -274,7 +263,7 @@ footer li {
     margin-bottom: 1rem;
 }
 
-footer a {
+footer ul a {
     color: white;
     text-decoration: none;
 }
@@ -284,7 +273,36 @@ footer a:hover {
 }
 
 footer p{
-    margin-top: 1rem;
+    margin-top: 2rem;
     color: grey;
 }
 
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.footer_logo img{
+    border-radius: 2rem;
+}
+
+/* footer for mobile */
+@media (max-width:850px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:850px) {
+    .footer_logo {
+        margin-bottom: 2rem;
+    }
+}

@@ -21,7 +21,7 @@ const Aboutme = () => {
         <div className="aboutgrid">
             <div className="abouttext">
                 <p >
-                Hello there! My name is Tohur.
+                Hi there! My name is Tohur Rahman.
                 I am a recent graduate with a <a target="_blank" rel="noopener noreferrer" className="link" href="https://www.parchment.com/u/award/558bf9d435306db8d96ca8ac48fe8abd">Bachelor of Science</a> in Computer Science.
                 Ever since I learned web programming, I became fascinated by how I could design websites with code.
                 I am very meticulous about creating quality and attractive products.
@@ -29,7 +29,7 @@ const Aboutme = () => {
                 course to build on my knowledge of front-end development.
                 </p>
                 <p>
-                Additionally, I consistently strive to learn more about website development, create new projects, and pick up new programming languages.
+                Additionally, I consistently strive to learn more about web development, create new projects, and pick up new programming languages.
                 </p>
                 <p>Here are a few technologies I'm working with:
                 <ul className="languages">
