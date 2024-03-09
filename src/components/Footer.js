@@ -6,7 +6,7 @@ const Footer = () => {
    <Box backgroundColor="#1A1D20">
      <footer>
         <div className="footer_logo">
-          <a href="https://tohurr.github.io/" target="_blank" rel="noopener noreferrer">
+          <a href="https://tohurr.github.io/" rel="noopener noreferrer">
             <img src="/logo.png" alt="image" />
           </a>
         </div>
