@@ -20,10 +20,10 @@ const Footer = () => {
         //  height={16}
        >
        <ul>
-            <h1>Lets Connect</h1>
+            <h1>Social</h1>
             <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/tohurr">GitHub</a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tohur-rahman/">LinkedIn</a></li>
-            <li><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/9zjYkHFJ">Discord</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/DWhhXT3yaz">Discord</a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="mailto: tohur.biz@gmail.com">tohur.biz@gmail.com</a></li>
             <p>© 2024 Tohur. All Rights Reserved.</p>
         </ul>

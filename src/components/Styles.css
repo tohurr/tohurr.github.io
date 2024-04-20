@@ -1,7 +1,7 @@
 /* import './Styles.css'; */
 
 .nav{
-    color: darkblue;
+    color: black;
 }
 
 .css-1y0iuhv{
@@ -69,7 +69,7 @@
 
 @media (max-width:850px) {
     .image {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -254,7 +254,7 @@ footer ul {
 }
 
 footer h1 {
-    color: #0F4BF1;
+    color: #464FEB;
     font-size: x-large;
     margin-bottom: 1rem;
     font-weight: bold;
