@@ -2,8 +2,7 @@ import React from "react";
 import FullScreenSection from "./FullScreenSection";
 import { Heading, Image, Text } from "@chakra-ui/react";
 import './Styles.css';
-import photo from '../assets/profile2.jpeg'
-// import resume from '../assets/cs-resume.pdf'
+import photo from '../assets/profile.jpeg'
 
 const Aboutme = () => {
     return (
@@ -20,16 +19,14 @@ const Aboutme = () => {
         </Heading>
         <div className="aboutgrid">
             <div className="abouttext">
-                <p >
-                Hi there! My name is Tohur Rahman.
-                I am a graduate with a <a target="_blank" rel="noopener noreferrer" className="link" href="https://www.parchment.com/u/award/558bf9d435306db8d96ca8ac48fe8abd">Bachelor of Science</a> in Computer Science.
-                Ever since I learned web programming, I became fascinated by how I could design websites with code.
-                I am very meticulous about creating quality and attractive products.
-                After college, I enrolled in the <a href="https://coursera.org/share/e2cc9f205b466083c97983eca6175b19" target="_blank" rel="noopener noreferrer" className="link">Meta Front-End Developer </a>
-                course to build on my knowledge of front-end development.
+                <p>
+                Hi there!
                 </p>
                 <p>
-                Additionally, I am committed to continuous learning and staying updated on the latest industry trends, as I believe that adaptability and a growth mindset are essential in the ever-evolving world of tech.
+                I'm Tohur Rahman, a Computer Science graduate driven by a passion for web design.
+                With a keen eye for detail and a dedication to quality, I strive to create visually appealing designs that grab people's attention.
+                I have also completed the <a href="https://coursera.org/share/e2cc9f205b466083c97983eca6175b19" target="_blank" rel="noopener noreferrer" className="link">Meta Front-End Developer </a>
+                course which has deepened my expertise in front-end development, furthering my ability to bring innovative ideas to life. Committed to continuous learning, I stay updated with the latest industry trends, embracing adaptability and a growth mindset.
                 </p>
                 <p>Here are a few technologies I'm working with:
                 <ul className="languages">
@@ -41,10 +38,9 @@ const Aboutme = () => {
                 </p>
             </div>
             <div>
-                <Image src={photo} alt='Tohur' borderRadius="md" className="image" />
+                <Image src={photo} alt='Tohur' borderRadius="full" objectFit='cover' boxSize='300px' className="image" />
             </div>
         </div>
-        {/* <a className="resume" href={resume} target="_blank" rel="noopener noreferrer">Resume</a> */}
         {/* <p className="email-me">Email: <a href="mailto: tohur.biz@gmail.com" target="_blank" rel="noopener noreferrer">tohur.biz@gmail.com</a></p> */}
         </FullScreenSection>
     )

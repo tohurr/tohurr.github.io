@@ -62,16 +62,18 @@
     }
 }
 
-.image{
-    border: 1px solid #0C243C;
-    width: 80%;
-}
+/* .image{
+  border-radius: 50%;
 
-@media (max-width:850px) {
+  object-fit: cover;
+} */
+/* width: 80%; */
+
+/* @media (max-width:850px) {
     .image {
-        width: 50%;
+        width: 60%;
     }
-}
+} */
 
 .link {
     color: #0F4BF1;
