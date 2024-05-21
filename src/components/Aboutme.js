@@ -7,7 +7,7 @@ import photo from '../assets/profile.jpeg'
 const Aboutme = () => {
     return (
         <FullScreenSection
-            backgroundColor="white"
+            backgroundColor="#E0EAFC"
             // p={16}
             spacing={8}
             alignItems="flex-start"

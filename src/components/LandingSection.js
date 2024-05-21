@@ -13,7 +13,7 @@ const LandingSection = () => (
    justifyContent="center"
    alignItems="center"
    isDarkBackground
-   backgroundColor="#E9F1FA"
+   backgroundColor="#E0EAFC"
    id="landing-section"
    className="landing-section"
  >
