@@ -13,7 +13,7 @@ const Card = ({ title, description, imageSrc, url }) => {
        backgroundColor="#E0EAFC"
        cursor="pointer"
        borderRadius="xl"
-       boxShadow='lg'
+       boxShadow='md'
        className="cards"
       >
       <a

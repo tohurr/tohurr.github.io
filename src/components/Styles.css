@@ -44,6 +44,7 @@
 .aboutgrid {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    justify-items: center;
 }
 
 .abouttext p{
@@ -62,11 +63,11 @@
     }
 }
 
-/* .image{
-  border-radius: 50%;
-
-  object-fit: cover;
-} */
+.image{
+  /* border-radius: 50%;
+  object-fit: cover; */
+  border: 1px solid black;
+}
 /* width: 80%; */
 
 /* @media (max-width:850px) {

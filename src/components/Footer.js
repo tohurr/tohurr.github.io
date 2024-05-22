@@ -20,7 +20,7 @@ const Footer = () => {
         //  height={16}
        >
        <ul>
-            <h1>Get In touch</h1>
+            <h1>Get In Touch</h1>
             <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/tohurr">GitHub</a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tohur-rahman/">LinkedIn</a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/DWhhXT3yaz">Discord</a></li>

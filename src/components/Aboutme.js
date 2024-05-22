@@ -20,13 +20,10 @@ const Aboutme = () => {
         <div className="aboutgrid">
             <div className="abouttext">
                 <p>
-                Hi there!
+                What is Lorem Ipsum?
                 </p>
                 <p>
-                I'm Tohur Rahman, a Computer Science graduate driven by a passion for web design.
-                With a keen eye for detail and a dedication to quality, I strive to create visually appealing designs that grab people's attention.
-                I have also completed the <a href="https://coursera.org/share/e2cc9f205b466083c97983eca6175b19" target="_blank" rel="noopener noreferrer" className="link">Meta Front-End Developer </a>
-                course which has deepened my expertise in front-end development, furthering my ability to bring innovative ideas to life. Committed to continuous learning, I stay updated with the latest industry trends, embracing adaptability and a growth mindset.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
                 <p>Here are a few technologies I'm working with:
                 <ul className="languages">
