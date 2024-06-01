@@ -2,19 +2,19 @@ import React from "react";
 import FullScreenSection from "./FullScreenSection";
 import { Heading, Image, Text } from "@chakra-ui/react";
 import './Styles.css';
-import photo from '../assets/profile.jpeg'
+// import photo from '../assets/profile.jpeg'
 
 const Aboutme = () => {
     return (
         <FullScreenSection
-            backgroundColor="#E0EAFC"
+            backgroundColor="#121212"
             // p={16}
             spacing={8}
             alignItems="flex-start"
             id="aboutme-section"
             className="aboutme-section"
         >
-        <Heading as="h1" color="#1A1D20" className="border">
+        <Heading as="h1" color="#E0E0E0" className="border">
             About Me
         </Heading>
         <div className="aboutgrid">
@@ -34,9 +34,9 @@ const Aboutme = () => {
                 </ul>
                 </p>
             </div>
-            <div>
+            {/* <div>
                 <Image src={photo} alt='Tohur' borderRadius="full" objectFit='cover' boxSize='300px' className="image" />
-            </div>
+            </div> */}
         </div>
         {/* <p className="email-me">Email: <a href="mailto: tohur.biz@gmail.com" target="_blank" rel="noopener noreferrer">tohur.biz@gmail.com</a></p> */}
         </FullScreenSection>

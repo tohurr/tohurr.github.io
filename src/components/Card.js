@@ -9,8 +9,8 @@ const Card = ({ title, description, imageSrc, url }) => {
    return (
 
     <VStack
-       color="black"
-       backgroundColor="#E0EAFC"
+       color="#E0E0E0"
+       backgroundColor="#1E1E1E"
        cursor="pointer"
        borderRadius="xl"
        boxShadow='md'
@@ -29,7 +29,7 @@ const Card = ({ title, description, imageSrc, url }) => {
              {title} <FontAwesomeIcon icon={faArrowRight} size="1x" />
            </Heading>
          </HStack>
-         <Text color="#64748b" fontSize="lg" >
+         <Text color="#B3B3B3" fontSize="lg" >
            {description}
          </Text>
          {/* <HStack spacing={2} alignItems="center" >

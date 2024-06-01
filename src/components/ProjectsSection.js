@@ -46,7 +46,7 @@ const projects = [
 const ProjectsSection = () => {
  return (
    <FullScreenSection
-     backgroundColor="#E0EAFC"
+     backgroundColor="#121212"
      isDarkBackground
     //  p={8}
      alignItems="flex-start"
@@ -54,7 +54,7 @@ const ProjectsSection = () => {
      id="projects-section"
      className="projects-section"
    >
-     <Heading as="h1" color="#1A1D20" className="border">
+     <Heading as="h1" color="#E0E0E0" className="border">
        Featured Projects
      </Heading>
      <Box

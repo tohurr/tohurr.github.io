@@ -13,7 +13,7 @@ const LandingSection = () => (
    justifyContent="center"
    alignItems="center"
    isDarkBackground
-   backgroundColor="#E0EAFC"
+   backgroundColor="#121212"
    id="landing-section"
    className="landing-section"
  >
@@ -25,7 +25,7 @@ const LandingSection = () => (
          name="Tohur Rahman"
        />  */}
 
-       <Heading as="h1" size="3xl" noOfLines={0} color="#1A1D20">
+       <Heading as="h1" size="3xl" noOfLines={0} color="#E0E0E0">
          {greeting}
          {/* Hello, my name is Tohur Rahman. */}
        </Heading>

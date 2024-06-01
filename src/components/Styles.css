@@ -1,11 +1,11 @@
 /* import './Styles.css'; */
 
 .nav{
-    color: black;
+    color: #464FEB;
 }
 
 .css-1y0iuhv{
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #1E1E1E;
 }
 
 .nav:hover  {
@@ -13,6 +13,7 @@
     transform: scale(1.1);
     transition: transform .1s;
     text-decoration: underline;
+    text-decoration-style: dashed;
 }
 
 .cards {
@@ -37,7 +38,7 @@
 }
 
 .border {
-    border-bottom: 2px solid #1A1D20;
+    border-bottom: 2px solid #1E1E1E;
   }
 
 
@@ -148,6 +149,7 @@
 
 .aboutme-section {
     padding: 4rem;
+    color: #E0E0E0;
     /* padding: 64px; */
 }
 
@@ -247,9 +249,11 @@
 footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    color: white;
+    color: #E0E0E0;
     padding: 3rem;
-    background-color: #1A1D20;
+    background-color: #050505;
+    border-top: 1px solid #1E1E1E;
+    /* background-color: #121212; */
 }
 
 footer ul {
@@ -267,13 +271,14 @@ footer li {
     margin-bottom: 1rem;
 }
 
-footer ul a {
-    color: white;
+footer ul {
+    color: #E0E0E0;
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
+    text-decoration-style: wavy;
 }
 
 footer p{
@@ -291,7 +296,7 @@ footer p{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 20%;
 }
 .footer_logo img{
     border-radius: 2rem;

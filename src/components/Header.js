@@ -14,15 +14,15 @@ import './Styles.css'
 const socials = [
 //  {
 //    icon: faEnvelope,
-//    url: "mailto: tohur.biz@gmail.com",
+//    url: "mailto: ",
 //  },
- {
-   icon: faGithub,
-   url: "https://github.com/tohurr",
- },
  {
    icon: faLinkedin,
    url: "https://www.linkedin.com/in/tohur-rahman/",
+ },
+ {
+  icon: faGithub,
+  url: "https://github.com/tohurr",
  },
 //  {
 //    icon: faStackOverflow,
@@ -82,7 +82,7 @@ const Header = () => {
      transitionProperty="transform"
      transitionDuration=".3s"
      transitionTimingFunction="ease-in-out"
-     backgroundColor="#E0EAFC"
+     backgroundColor="#121212"
      ref={headerRef}
    >
      <Box color="white" maxWidth="1280px" margin="0 auto">
