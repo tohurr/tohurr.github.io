@@ -28,6 +28,7 @@ const Aboutme = () => {
                 <p>Here are a few technologies I'm working with:
                 <ul className="languages">
                     <li>React.js</li>
+                    <li>Next.js</li>
                     <li>JavaScript (ES6+)</li>
                     <li>HTML and CSS</li>
                     <li>Python</li>

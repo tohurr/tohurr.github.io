@@ -250,7 +250,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: #E0E0E0;
-    padding: 3rem;
+    /* padding: 5rem; */
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     background-color: #050505;
     border-top: 1px solid #1E1E1E;
     /* background-color: #121212; */
