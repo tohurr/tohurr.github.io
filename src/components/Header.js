@@ -8,14 +8,9 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { Box, HStack, Text } from "@chakra-ui/react";
 import './Styles.css'
-// import resume from '../assets/cs-resume.pdf'
 
 
 const socials = [
-//  {
-//    icon: faEnvelope,
-//    url: "mailto: ",
-//  },
  {
    icon: faLinkedin,
    url: "https://www.linkedin.com/in/tohur-rahman/",
@@ -118,7 +113,6 @@ const Header = () => {
             <a href="#projects" onClick={handleClick("projects")} style={{fontWeight: "bold"}} className="nav">
                Projects
              </a>
-             {/* <a className="resume" href={resume} target="_blank" rel="noopener noreferrer" style={{fontWeight: "bold"}}>Resume</a> */}
            </HStack>
          </nav>
        </HStack>
