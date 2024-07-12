@@ -24,6 +24,7 @@ const Footer = () => {
             <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tohur-rahman/">LinkedIn</a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/tohurr">GitHub</a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/DWhhXT3yaz">Discord</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://linktr.ee/tohur_">My Linktree</a></li>
             <p>© 2024 Tohur. All Rights Reserved.</p>
           </ul>
         </Flex>

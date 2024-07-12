@@ -1,12 +1,25 @@
 import React from "react";
-import { Avatar, Heading, VStack, Divider } from "@chakra-ui/react";
+import { Avatar, Heading, VStack, Divider, HStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
+import {
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './Styles.css';
-//#034694
 
 const greeting = "Hello, my name is Tohur.";
 const bio1 = "Welcome to my website.";
-// const bio2 = "specialized in React";
+const socials = [
+  {
+    icon: faLinkedin,
+    url: "https://www.linkedin.com/in/tohur-rahman/",
+  },
+  {
+    icon: faGithub,
+    url: "https://github.com/tohurr",
+  },
+];
 
 const LandingSection = () => (
   <FullScreenSection
@@ -30,14 +43,21 @@ const LandingSection = () => (
         {/* Hello, my name is Tohur Rahman. */}
       </Heading>
       {/* </VStack>  */}
-      {/* <VStack spacing={5} >  */}
       <Heading as="h2" size="xl" noOfLines={0} color="#464FEB">
         {bio1}
       </Heading>
-      {/* <Heading as="h1" size="3xl" noOfLines={1}>
-         {bio2}
-       </Heading>  */}
-      {/* </VStack>  */}
+      <HStack spacing={8} >
+        {socials.map(({ icon, url }) => (
+          <a
+            key={url}
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={icon} size="2x" key={url} className="icons" />
+          </a>
+        ))}
+      </HStack>
     </VStack>
   </FullScreenSection >
 );
