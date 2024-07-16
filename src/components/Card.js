@@ -10,7 +10,7 @@ const Card = ({ title, description, imageSrc, url }) => {
 
     <VStack
        color="#E0E0E0"
-       backgroundColor="#1E1E1E"
+       backgroundColor="#192238"
        cursor="pointer"
        borderRadius="xl"
        boxShadow='md'

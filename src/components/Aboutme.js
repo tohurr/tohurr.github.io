@@ -7,7 +7,7 @@ import './Styles.css';
 const Aboutme = () => {
     return (
         <FullScreenSection
-            backgroundColor="#121212"
+            backgroundColor="#0F172A"
             // p={16}
             spacing={8}
             alignItems="flex-start"
