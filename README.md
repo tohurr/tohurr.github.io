@@ -1,1 +1,1 @@
-# Welcome! Check out my website at [https://tohurr.github.io/](https://tohurr.github.io/).
+# Welcome! Check out my website at [www.tohur.com](https://tohur.vercel.app/)

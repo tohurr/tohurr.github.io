@@ -73,7 +73,7 @@ const Header = () => {
       transitionProperty="transform"
       transitionDuration=".3s"
       transitionTimingFunction="ease-in-out"
-      backgroundColor="#121212"
+      backgroundColor="#0D0D0D"
       ref={headerRef}
     >
       <Box color="white" maxWidth="1280px" margin="0 auto">
@@ -106,7 +106,7 @@ const Header = () => {
                 href="https://tohurr.github.io/"
                 className="nav-logo"
               >
-                <img src="/logo.png" alt="image" />
+                <img src="/logo2.png" alt="image" />
               </a>
             </HStack>
           </nav>

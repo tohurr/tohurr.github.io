@@ -2,7 +2,7 @@
   "name": "tohur-rahman-profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tohurr.github.io/",
+  "homepage": "https://tohur.vercel.app/",
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
     "@emotion/react": "^11.10.4",
@@ -15,6 +15,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@vercel/analytics": "^1.3.1",
     "formik": "^2.2.9",
     "framer-motion": "^7.3.5",
     "react": "^18.3.1",
