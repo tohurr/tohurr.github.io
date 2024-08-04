@@ -1,5 +1,6 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import Header from "./components/Header";
 import LandingSection from "./components/LandingSection";
 import ProjectsSection from "./components/ProjectsSection";
@@ -17,6 +18,7 @@ function App() {
         <Footer />
       </main>
       <Analytics />
+      <SpeedInsights />
     </ChakraProvider>
   );
 }
