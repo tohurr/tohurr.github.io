@@ -263,7 +263,7 @@ footer p {
 .nav-logo {
     display: flex;
     border-radius: .5rem;
-    width: 8%;
+    width: 6%;
 }
 
 .nav-logo img {
@@ -272,7 +272,7 @@ footer p {
 
 @media (max-width: 850px) {
     .nav-logo {
-        width: 50%;
+        width: 0%;
     }
 }
 

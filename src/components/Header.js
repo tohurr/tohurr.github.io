@@ -103,7 +103,7 @@ const Header = () => {
               <a
                 //  target="_blank"
                 rel="noopener noreferrer"
-                href="https://tohurr.github.io/"
+                href="https://tohur.vercel.app/"
                 className="nav-logo"
               >
                 <img src="/logo2.png" alt="image" />
