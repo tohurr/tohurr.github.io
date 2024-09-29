@@ -6,8 +6,8 @@ const Footer = () => {
     <Box backgroundColor="#0D0D0D">
       <footer>
         <div className="footer_logo">
-          <a href="https://tohur.vercel.app//" rel="noopener noreferrer">
-            <img src="/logo.png" alt="image" />
+          <a href="https://tohur.com" rel="noopener noreferrer">
+            <img src="/logo2.png" alt="image" />
           </a>
         </div>
         <Flex

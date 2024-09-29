@@ -6,38 +6,38 @@ import './Styles.css';
 
 //not using images
 const Card = ({ title, description, imageSrc, url }) => {
-   return (
+  return (
 
     <VStack
-       color="#E0E0E0"
-       backgroundColor="#192238"
-       cursor="pointer"
-       borderRadius="xl"
-       boxShadow='md'
-       className="cards"
-      >
+      color="#333333"
+      backgroundColor="#FAFAFA"
+      cursor="pointer"
+      borderRadius="xl"
+      boxShadow='md'
+      className="cards"
+    >
       <a
-      key={url}
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
+        key={url}
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
       >
-       {/* <Image borderRadius="xl" src={imageSrc} alt={title} boxSize='sm' objectFit='cover'/>  */}
-       <VStack spacing={4} p={3} alignItems="flex-start">
-         <HStack justifyContent="space-between" alignItems="center" >
-           <Heading as="h3" size="md">
-             {title} <FontAwesomeIcon icon={faArrowRight} size="1x" />
-           </Heading>
-         </HStack>
-         <Text color="#B3B3B3" fontSize="lg" >
-           {description}
-         </Text>
-         {/* <HStack spacing={2} alignItems="center" >
+        {/* <Image borderRadius="xl" src={imageSrc} alt={title} boxSize='sm' objectFit='cover'/>  */}
+        <VStack spacing={4} p={3} alignItems="flex-start">
+          <HStack justifyContent="space-between" alignItems="center" >
+            <Heading as="h3" size="md">
+              {title} <FontAwesomeIcon icon={faArrowRight} size="1x" />
+            </Heading>
+          </HStack>
+          <Text color="#333333" fontSize="lg" >
+            {description}
+          </Text>
+          {/* <HStack spacing={2} alignItems="center" >
             <p>See more</p> <FontAwesomeIcon icon={faArrowRight} size="1x" />
          </HStack>  */}
-       </VStack>
+        </VStack>
       </a>
     </VStack>
-   );
+  );
 };
 export default Card;

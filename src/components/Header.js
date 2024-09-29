@@ -73,7 +73,7 @@ const Header = () => {
       transitionProperty="transform"
       transitionDuration=".3s"
       transitionTimingFunction="ease-in-out"
-      backgroundColor="#0D0D0D"
+      backgroundColor="#FAFAFA"
       ref={headerRef}
     >
       <Box color="white" maxWidth="1280px" margin="0 auto">
@@ -103,7 +103,7 @@ const Header = () => {
               <a
                 //  target="_blank"
                 rel="noopener noreferrer"
-                href="https://tohur.vercel.app/"
+                href="https://tohur.com"
                 className="nav-logo"
               >
                 <img src="/logo2.png" alt="image" />

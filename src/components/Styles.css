@@ -2,7 +2,7 @@
 
 /* Navigation Styles */
 .nav {
-    color: #464FEB;
+    color: #050505;
     padding: .5rem;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .icons {
-    color: #007fff;
+    color: #333333;
     padding: 1rem;
     /* transition: transform 0.3s ease-in-out; */
 }
@@ -28,13 +28,18 @@
     color: #0F4BF1;
 }
 
+.landing-icon {
+    border: 1px solid #464FEB;
+    border-radius: 2rem;
+}
+
 /* Border Styles */
 .css-1y3k3mc {
-    border-bottom: 1px solid #1E1E1E;
+    border-bottom: 1px solid #E0E0E0;
 }
 
 .border {
-    border-bottom: 2px solid #1E1E1E;
+    border-bottom: 2px solid #E0E0E0;
 }
 
 /* Card Styles */
@@ -77,6 +82,10 @@
     padding-bottom: 1rem;
     line-height: 1.5;
     font-size: large;
+}
+
+.abouttext {
+    color: #333333;
 }
 
 @media (max-width: 850px) {
@@ -252,11 +261,11 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    width: 15%;
 }
 
 .footer_logo img {
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
 
