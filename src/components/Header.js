@@ -103,7 +103,7 @@ const Header = () => {
               <a
                 //  target="_blank"
                 rel="noopener noreferrer"
-                href="https://tohur.com"
+                href="/"
                 className="nav-logo"
               >
                 <img src="/logo2.png" alt="image" />

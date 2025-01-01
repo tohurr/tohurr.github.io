@@ -11,6 +11,7 @@
     transition: transform .1s; */
     text-decoration: underline;
     text-decoration-style: dashed;
+    color: #0F4BF1;
 }
 
 .chakra-heading.css-6lkkh6{
@@ -220,7 +221,7 @@ footer {
 
 footer ul {
     list-style-type: none;
-    color: #E0E0E0;
+    color: #FAFAFA;
 }
 
 footer h1 {
@@ -243,7 +244,6 @@ padding-bottom: .5rem;
 footer a:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
-    color: #0F4BF1;
 }
 
 footer p {

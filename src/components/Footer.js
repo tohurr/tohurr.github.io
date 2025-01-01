@@ -6,7 +6,7 @@ const Footer = () => {
     <Box backgroundColor="#0D0D0D">
       <footer>
         <div className="footer_logo">
-          <a href="https://tohur.com" rel="noopener noreferrer">
+          <a href="/" rel="noopener noreferrer">
             <img src="/logo2.png" alt="image" />
           </a>
         </div>
@@ -20,12 +20,12 @@ const Footer = () => {
         //  height={16}
         >
           <ul>
-            <h1>Get In Touch</h1>
+            <h1>Where to Find Me</h1>
             <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tohur-rahman/">LinkedIn</a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/tohurr">GitHub</a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/DWhhXT3yaz">Discord</a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://linktr.ee/tohur_">My Linktree</a></li>
-            <p>© 2024 Tohur. All Rights Reserved.</p>
+            <p>© 2025 Tohur Rahman. All Rights Reserved.</p>
           </ul>
         </Flex>
       </footer>
